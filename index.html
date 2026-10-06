@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpendLens</title>
+<meta name="description" content="SpendLens reads the bank statements your banks email you and shows your loans, due dates and spending.">
+<style>
+  :root { --bg: #ffffff; --text: #1d1d24; --muted: #5d6070; --accent: #5b5bf7; --line: #e6e8f0; --card: #f6f7fb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e0f14; --text: #ececf1; --muted: #a2a5b4; --accent: #8f8ffb; --line: #262836; --card: #16171f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 16px 64px; }
+  h1 { font-size: 40px; line-height: 1.1; margin: 0 0 8px; }
+  .lead { font-size: 21px; color: var(--muted); margin: 0 0 32px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 4px 20px; margin: 16px 0; }
+  h2 { font-size: 19px; margin: 18px 0 4px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>SpendLens</h1>
+  <p class="lead">Your bank statements, understood.</p>
+
+  <p>SpendLens is an iPhone app that reads the statements your banks email you (Ameriabank, IDBank, Inecobank, Evocabank and Byblos Bank) and turns them into a clear picture, without any typing.</p>
+
+  <div class="card">
+    <h2>This month's payments</h2>
+    <p>Loans, house and car costs, and subscriptions, with the next due date first. Tick off what you've paid; your statements confirm it later.</p>
+  </div>
+  <div class="card">
+    <h2>Every loan in one place</h2>
+    <p>What you borrowed, what's left, what you've paid so far, the interest still ahead, and each payment date.</p>
+  </div>
+  <div class="card">
+    <h2>Where your money goes</h2>
+    <p>Spending by month and category, money in, transfers between accounts, and each statement on its own page.</p>
+  </div>
+
+  <h2>Private by design</h2>
+  <p>SpendLens reads your Gmail read-only, and only the emails from your banks that have statements attached. It reads them on your iPhone and keeps the results there. There are no SpendLens servers, ads or analytics. <a href="privacy.html">Read the privacy policy</a>.</p>
+
+  <footer class="muted">
+    SpendLens is in testing. Contact: <a href="mailto:gog.avagyan92@gmail.com">gog.avagyan92@gmail.com</a> · <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>

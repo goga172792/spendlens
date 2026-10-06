@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpendLens Privacy Policy</title>
+<meta name="description" content="How SpendLens uses read-only Gmail access to find your bank statements, and what happens to that data.">
+<style>
+  :root { --bg: #ffffff; --text: #1d1d24; --muted: #5d6070; --accent: #5b5bf7; --line: #e6e8f0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e0f14; --text: #ececf1; --muted: #a2a5b4; --accent: #8f8ffb; --line: #262836; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+  .summary { border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px; margin-top: 24px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">SpendLens</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Effective 6 October 2026</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> SpendLens is an iPhone app that reads the bank statements your banks email you and shows your loans, due dates and spending. With your permission it reads your Gmail, read-only, to find those statements. Everything it reads stays on your iPhone. There are no SpendLens servers, no ads and no analytics, and nothing is sold or shared.</p>
+  </div>
+
+  <h2>What SpendLens accesses</h2>
+  <ul>
+    <li><strong>Your Google account's email address</strong>, to know which account's statements it is showing.</li>
+    <li><strong>Gmail, read-only</strong> (the <code>gmail.readonly</code> permission). SpendLens searches only for emails from your banks (Ameriabank, IDBank, Inecobank, Evocabank and Byblos Bank) that have statement files attached (PDF, Excel or Word) and arrived in the last 12 months. From those emails it reads the sender, subject, date and the attached statement files. It cannot send, change or delete email.</li>
+    <li><strong>Statement passwords you type in</strong>, for banks that lock their statement files.</li>
+  </ul>
+
+  <h2>How SpendLens uses it</h2>
+  <p>Only to show you your own finances: the transactions, balances and loans in your statements, what you have to pay each month and when, where your money goes, and optional reminders before loan payments. SpendLens does not use your data for advertising and does not build profiles for anyone else.</p>
+
+  <h2>Where your data is processed and kept</h2>
+  <ul>
+    <li>Statements are read <strong>on your iPhone</strong>. The results are stored in the app's private storage on your device. Your Google sign-in and statement passwords are kept in the iOS Keychain.</li>
+    <li>SpendLens talks only to Google, to sign you in and read the statement emails. There is no SpendLens server, and the developer never receives your email or financial data.</li>
+    <li><strong>Optional:</strong> if you turn off "Read statements on this device" in Settings and add your own Anthropic API key, the text of your statements is sent to Anthropic's API (api.anthropic.com), using your key, so it can be read there. This is off unless you turn it on.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>SpendLens does not sell, rent or share your data. Apart from the optional Anthropic setting above, which you control, no data received from Google is transferred to anyone.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>SpendLens's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Keeping and deleting your data</h2>
+  <ul>
+    <li>Your data stays on your iPhone until you delete it.</li>
+    <li>In SpendLens, go to Settings, tap <strong>Sign out</strong>, then choose <strong>Sign out and delete its data</strong>. Or use <strong>Delete all imported data</strong> under Advanced. Deleting the app removes everything too.</li>
+    <li>You can remove SpendLens's access to your Google account at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>All connections to Google use HTTPS. Data on the device is protected by iOS, and passwords and sign-in tokens are stored in the Keychain.</p>
+
+  <h2>Children</h2>
+  <p>SpendLens is not intended for children and does not knowingly collect data from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests: Grigor Avagyan, <a href="mailto:gog.avagyan92@gmail.com">gog.avagyan92@gmail.com</a></p>
+
+  <footer class="muted"><a href="index.html">SpendLens home</a></footer>
+</main>
+</body>
+</html>
